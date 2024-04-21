@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__header">
+            <h1 class="container-header__maintext">Travel and Hospitality</h1>
+            <p class="container-header__text">Offline & Online Translation: image translation, translation history, file
+                translation,
+                bookmarks, dictionary meaning. </p>
+            <button class="container-header__button">Request a free trial</button>
+        </div>
+
+        <div class="container__solution">
+            <h2 class="container-solution__header second-header">Our language solution</h2>
+            <p class="container-solution__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since </p>
+            <div class="container-solution__card">
+                <div class="card__item">
+                    <div class="card-item__header">Translation</div>
+                    <p class="card-item__text">Unlimited and secure translation for fixed price. Translate billions of
+                        characters per day</p>
+                    <div class="card-item__image"><img src="./media/Translation.svg" alt="Translation"></div>
+                </div>
+                <div class="card__item">
+                    <div class="card-item__header">Social listening</div>
+                    <p class="card-item__text">Unlimited and secure translation for fixed price. Translate billions of
+                        characters per day</p>
+                    <div class="card-item__image"><img src="./media/Social listening.svg" alt="Social listening"></div>
+                </div>
+                <div class="card__item">
+                    <div class="card-item__header">Content generation</div>
+                    <p class="card-item__text">Unlimited and secure translation for fixed price. Translate billions of
+                        characters per day</p>
+                    <div class="card-item__image"><img src="./media/Content generation.svg" alt="Content generation">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__product">
+            <h2 class="container-product__header second-header">Who is this product for?</h2>
+            <p class="container-product__text">Lingvanex Bot can simply solve a language barrier problem in your team,
+                community,
+                with your international clients and outsourcing partners. It automatically identifies the languages
+                in a conversation and translates all messages of your team members into a chosen language.</p>
+            <div class="container-product__buttons">
+                <button id="travel-btn" class="button-active" onclick="travelBtn()">For travelers</button>
+                <button id="organization-btn" onclick="organizationBtn()">For travel organization</button>
+                <button id="employees-btn" onclick="employeesBtn()">For employees</button>
+            </div>
+            <div class="container-product__card">
+                <div id="first-card" class="product-card product-card__active first-card">
+                    <div class="product-card__textarea">
+                        <p class="product-card__header second-header">For travelers</p>
+                        <ul class="product-card__list">
+                            <li>Highlight one word in the text on the page.</li>
+                            <li>Word meaning, pronunciation, synonyms,
+                                hypernyms, hyponyms. and more.</li>
+                            <li>Highlight one word in the text on the page.</li>
+                            <li>Word meaning, pronunciation, synonyms,
+                                hypernyms, hyponyms .and more.</li>
+                        </ul>
+                    </div>
+                    <div class="product-card__image">
+                        <img src="./media/For travelers.svg" alt="For travelers">
+                    </div>
+                </div>
+                <div id="second-card" class="product-card second-card">
+                    <div class="product-card__textarea">
+                        <p class="product-card__header second-header">For travel organization</p>
+                        <ul class="product-card__list">
+                            <li>Highlight one word in the text on the page.</li>
+                            <li>Word meaning, pronunciation, synonyms,
+                                hypernyms, hyponyms. and more.</li>
+                            <li>Highlight one word in the text on the page.</li>
+                            <li>Word meaning, pronunciation, synonyms,
+                                hypernyms, hyponyms .and more.</li>
+                        </ul>
+                    </div>
+                    <div class="product-card__image">
+                        <img src="./media/For travel organization.svg" alt="For travel organization">
+                    </div>
+                </div>
+                <div id="third-card" class="product-card third-card">
+                    <div class="product-card__textarea">
+                        <p class="product-card__header second-header">For employees</p>
+                        <ul class="product-card__list">
+                            <li>Highlight one word in the text on the page.</li>
+                            <li>Word meaning, pronunciation, synonyms,
+                                hypernyms, hyponyms. and more.</li>
+                            <li>Highlight one word in the text on the page.</li>
+                            <li>Word meaning, pronunciation, synonyms,
+                                hypernyms, hyponyms .and more.</li>
+                        </ul>
+                    </div>
+                    <div class="product-card__image">
+                        <img src="./media/For employees.svg" alt="For employees">
+                    </div>
+                </div>
+            </div>
+            <button class="container-product__button">Request a free trial</button>
+        </div>
+
+        <div class="container__help">
+            <h2 class="container-help__header second-header">How can Lingvanex help you?</h2>
+            <div class="container-help__tips">
+
+                <div class="tips-item">
+                    <div class="tip-image"><img src="./media/rectangle.svg" alt=""></div>
+                    <div class="tip-header">Book trips & tickets easily</div>
+                    <div class="tip-maintext">We provide cloud, sdk
+                        and on-premise translation solutions. All your private data stays with you.</div>
+                </div>
+                <div class="tips-item">
+                    <div class="tip-image"><img src="./media/squ.svg" alt=""></div>
+                    <div class="tip-header">Translate
+                        in real time</div>
+                    <div class="tip-maintext">The price starts from
+                        $100 / month and depends
+                        on number of languages.</div>
+                </div>
+                <div class="tips-item">
+                    <div class="tip-image"><img src="./media/eclipse.svg" alt=""></div>
+                    <div class="tip-header">Translate any hotel services</div>
+                    <div class="tip-maintext">Every language model size
+                        is 70mb.SDK uses 200mb
+                        of RAM memory.</div>
+                </div>
+
+
+                <div class="tips-item">
+                    <div class="tip-image"><img src="./media/squ.svg" alt=""></div>
+                    <div class="tip-header">Сommunicate easily</div>
+                    <div class="tip-maintext">We provide cloud, sdk
+                        and on-premise translation solutions. All your private data stays with you.</div>
+                </div>
+                <div class="tips-item">
+                    <div class="tip-image"><img src="./media/rectangle.svg" alt=""></div>
+                    <div class="tip-header">Knowledge bases for employees</div>
+                    <div class="tip-maintext">The price starts from
+                        $100 / month and depends
+                        on number of languages.</div>
+                </div>
+                <div class="tips-item">
+                    <div class="tip-image"><img src="./media/squ.svg" alt=""></div>
+                    <div class="tip-header">Website & promo translation</div>
+                    <div class="tip-maintext">SDK has trial project and manual.Dependency managers
+                        are supported.</div>
+                </div>
+
+                
+            </div>
+            <button class="container-help__button">Request a free trial</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
